@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HASH</title>
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/md5.min.js"></script>
+  <script src="js/sha1.min.js"></script>
+  <script src="js/sha256.min.js"></script>
+  <script src="js/sha512.min.js"></script>
+  <script src="js/whirlpool.min.js"></script>
+</head>
+<body>
+    <div id="input"><input id="valueinput" name="value"><button type="button" onclick="javascript:dohash();">Hash!</button> </div>
+    <div id="output">
+        <div class="name">md5:</div><textarea class="result" id="r_md5"></textarea>
+        <div class="name">sha1:</div><textarea class="result" id="r_sha1"></textarea>
+        <div class="name">sha256:</div><textarea class="result" id="r_sha256"></textarea>
+        <div class="name">sha384:</div><textarea class="result" id="r_sha384"></textarea>
+        <div class="name">sha512:</div><textarea class="result" id="r_sha512"></textarea>
+        <div class="name">Whirlpool:</div><textarea class="result" id="r_whirlpool"></textarea>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
